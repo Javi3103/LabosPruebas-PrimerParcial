@@ -1,0 +1,89 @@
+/* Estilos globales */
+
+/* Reset de estilos */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fuentes y tipografía */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  
+}
+
+/* Estilos para el Navbar */
+.navbar {
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 6px;
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: none;
+  color: rgb(255, 202, 44);
+}
+
+.navbarhover:hover {
+  text-decoration: none;
+  
+  background-color: rgb(49, 54, 59);
+  border-radius: 5px;
+}
+
+/* Estilos para botones */
+.btn {
+  display: inline-block;
+  padding: 8px 20px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-outline-light {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Media queries para pantallas pequeñas */
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: #343a40; /* Color de fondo para el menú desplegable en pantallas pequeñas */
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px;
+  }
+}
